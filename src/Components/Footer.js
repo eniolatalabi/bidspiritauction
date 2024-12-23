@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom'; 
 import "./Footer.css";
 
 const Footer = () => {
@@ -181,31 +182,32 @@ const Footer = () => {
           )}
         </div>
 
-        {/* Links */}
-        <div className="footer-links">
-          <div>
-            <h4>Company</h4>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Support</h4>
-            <ul>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">FAQs</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Resources</h4>
-            <ul>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-        </div>
+       {/* Links */}
+<div className="footer-links">
+  <div>
+    <h4>Company</h4>
+    <ul>
+      <li><Link to="/about">About Us</Link></li>
+      <li><Link to="/">Home</Link></li> 
+      <li><Link to="/contact">Contact Us</Link></li> 
+    </ul>
+  </div>
+  <div>
+    <h4>Support</h4>
+    <ul>
+      <li><Link to="/contact#reviews">Write Review</Link></li>
+      <li><Link to="/contact#faqs">FAQs</Link></li> 
+    </ul>
+  </div>
+  <div>
+    <h4>Resources</h4>
+    <ul>
+      <li><Link to="/terms">Terms of Service</Link></li>
+      <li><Link to="/privacy">Privacy Policy</Link></li>
+    </ul>
+  </div>
+</div>
+
 
         {/* Contact Section */}
         <div className="footer-contact">
