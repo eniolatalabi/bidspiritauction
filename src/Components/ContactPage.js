@@ -10,32 +10,31 @@ const FAQSection = () => {
     {
       question: "What is BidSpirit, and how does it work?",
       answer:
-        "BidSpirit is a platform designed to streamline bidding processes and auction management. We ensure transparency and efficiency, offering tools for businesses to achieve their goals.",
+        "BidSpirit is a world-leading online marketplace for fine art, antiques, furniture, and collectibles. It connects buyers and sellers globally through an intuitive online auction platform"
     },
     {
-      question: "Is BidSpirit suitable for small businesses?",
+      question: "Do I need to create an account to use BidSpirit?",
       answer:
-        "Yes, BidSpirit is designed to support businesses of all sizes, offering scalable tools that fit the needs of startups and enterprises alike.",
-    },
+        "No, all you need to do is just register your name and you are good to go."},
     {
-      question: "What industries benefit most from BidSpirit?",
+      question: "Is BidSpirit free to use?",
       answer:
         "BidSpirit is ideal for industries such as construction, procurement, real estate, technology, and more. If your business involves bidding or auctioning, we can help.",
     },
     {
-      question: "Is my data safe on BidSpirit's platform?",
+      question: "How do I create an account?",
       answer:
-        "Absolutely. We prioritize security with advanced encryption and data protection measures to safeguard your sensitive information.",
+        "Fill the welcome form, it serves as your account for the session.",
     },
     {
-      question: "Does BidSpirit support international operations?",
+      question: "How do I place a bid?",
       answer:
-        "Yes, BidSpirit enables global participation, allowing businesses to connect and engage in cross-border bidding and auctions.",
+        "Select the item you want to bid on, enter your bid amount, and click Place or Make Bid. Confirm your bid on the pop up screen.",
     },
     {
-      question: "How can I customize BidSpirit for my business?",
+      question: "Can I cancel or modify my bid?",
       answer:
-        "BidSpirit offers flexible customization options, including branding and tailored features, ensuring our platform aligns with your unique business needs.",
+        "No, bids cannot be canceled or modified once placed. Please review your bid carefully before confirming.",
     },
   ];
 
