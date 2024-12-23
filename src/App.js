@@ -20,8 +20,8 @@ function App() {
           <Route path="/categories" element={<CategoryPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/terms-of-use" element={<TermsOfUse />} /> {/* Add Terms of Use route */}
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Add Privacy Policy route */}
+          <Route path="/terms-of-use" element={<TermsOfUse />} /> 
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} /> 
         </Routes>
         <Footer />
       </Router>

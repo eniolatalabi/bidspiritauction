@@ -202,8 +202,8 @@ const Footer = () => {
   <div>
     <h4>Resources</h4>
     <ul>
-      <li><Link to="/terms">Terms of Service</Link></li>
-      <li><Link to="/privacy">Privacy Policy</Link></li>
+      <li><Link to="/terms-of-use">Terms of Service</Link></li>
+      <li><Link to="/privacy-policy">Privacy Policy</Link></li>
     </ul>
   </div>
 </div>
