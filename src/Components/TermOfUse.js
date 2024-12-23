@@ -13,7 +13,7 @@ const TermsOfUse = () => {
         <li><strong>Prohibited Activities:</strong> Do not engage in activities such as hacking, spamming, or violating others' rights.</li>
         <li><strong>Termination:</strong> We reserve the right to terminate or suspend your account for any violations of these terms.</li>
       </ul>
-      <p>If you have questions about our terms, please contact us at <a href="mailto:hello@bidspirit.com">hello@bidspirit.com</a>.</p>
+      <p>If you have questions about our terms, please contact us at <a href="mailto:hello@bidspirit.com">hello@bidspirit.com</a></p>
     </div>
   );
 };

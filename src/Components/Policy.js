@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
         <li><strong>Third-Party Sharing:</strong> We do not share your data with third parties without your consent, except as required by law.</li>
         <li><strong>Your Rights:</strong> You can request access to, correction of, or deletion of your personal data.</li>
       </ul>
-      <p>If you have questions about our privacy practices, please contact us at <a href="mailto:hello@bidspirit.com">hello@bidspirit.com</a>.</p>
+      <p>If you have questions about our privacy practices, please contact us at <a href="mailto:hello@bidspirit.com">hello@bidspirit.com</a></p>
     </div>
   );
 };
