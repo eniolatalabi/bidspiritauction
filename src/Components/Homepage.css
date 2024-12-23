@@ -157,7 +157,7 @@ body {
 
   
   .categories-section h2 {
-    font-size: 1.5rem;
+    /* font-size: 1rem; */
     margin-bottom: 20px;
   
 
@@ -178,7 +178,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.5rem;
     font-weight: bold;
     color: #000000;
     cursor: pointer;
@@ -189,27 +188,27 @@ body {
   .fine-arts {
     background-color: #f7f1d4;
     color: #333;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   
   .furniture {
     background-color: #e6d5be;
     color: #333;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     transform: scale(1.1);
   }
   
   .antiques {
     background-color: #d8a56d;
     color: #333;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     transform: scale(1.2);
   }
   
   .collectibles {
     background-color: #ffbf00;
     color: #333;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     transform: scale(1.3);
   }
   
@@ -648,7 +647,7 @@ body {
   .category-circle {
     width: 80px; 
     height: 80px;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 
