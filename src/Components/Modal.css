@@ -1,0 +1,223 @@
+/* Modal overlay */
+/* Modal overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Modal container */
+  .modal-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    max-width: 600px;
+    min-width: 320px;
+    position: relative;
+    color: #000;
+  }
+  
+  /* Modal Image */
+  .modal-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  /* Close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Styling for labels, inputs, and bid section */
+  .auction-details p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  #bidAmount {
+    width: 10rem;
+    outline: none;
+
+  }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+  
+  .bid-input-row {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .bid-input-row input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .feedback-message,
+  .wishlist-message {
+    color: #d9534f;
+    margin-top: 10px;
+  }
+  
+  /* Timer styles */
+  .timer {
+    font-weight: bold;
+    color: #FF5733;
+  }
+  
+  .expired {
+    color: #d9534f;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .modal-container {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .modal-container {
+      width: 90%;
+    }
+  }
+  
+  /* Close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* Modal content */
+  .modal-image {
+    width: 100%;
+    max-width: 100px;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .auction-details {
+    margin-top: 20px;
+  }
+  
+  .auction-details input {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auction-details button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auction-details button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .feedback-message {
+    color: #d9534f;
+    margin-top: 10px;
+  }
+  
+  .timer {
+    font-weight: bold;
+    color: #FF5733;
+  }
+  
+  .expired {
+    color: #d9534f;
+  }
+  
+  .details-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .wishlist-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .wishlist-button:hover {
+    background-color: #218838;
+  }
+  

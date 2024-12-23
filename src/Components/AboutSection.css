@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  /* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 5%;
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text .highlight {
+  font-size: 1rem;
+  color: #fcb900;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+
+  .story-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10%; 
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+  
+  .story-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .story-text {
+    max-width: 500px;
+  }
+  
+  .story-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .story-text .highlight {
+    font-size: 1rem;
+    color: #fcb900;
+    margin-bottom: 1rem;
+  }
+  
+  .story-text p {
+    font-size: 1rem;
+    color: #444444;
+    line-height: 1.8;
+  }
+  
+  /* Our Culture Section */
+  .culture-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10%; 
+    background-color: #ececec;
+    color: #1a1a1a;
+  }
+  
+  .culture-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .culture-text {
+    max-width: 500px;
+  }
+  
+  .culture-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .culture-text p {
+    font-size: 1rem;
+    color: #444444;
+    line-height: 1.8;
+  }
+  
+  
+  /* For larger screens, align the image and text side by side */
+@media (min-width: 768px) {
+  .hero-section {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .hero-text {
+    max-width: 50%;
+  }
+
+  .hero-image img {
+    max-width: 350px;
+    margin-top: 0;
+  }
+}
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section,
+    .story-section,
+    .culture-section {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem 5%; /* Maintain alignment */
+    }
+  
+    .hero-text,
+    .story-text,
+    .culture-text {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  
+    .hero-image img,
+    .story-image img,
+    .culture-image img {
+      width: 100%;
+      max-width: 300px;
+      margin: 1rem 0;
+    }
+
+    .hero-section h1 {
+        color: #ffffff;
+        text-align: center;
+      }
+
+
+  
+  }
+  

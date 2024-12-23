@@ -1,0 +1,96 @@
+/* Popup overlay styles */
+.popup-overlay {
+  position: fixed; /* Overlay covers the entire screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dim the background */
+  z-index: 9999; /* Ensure it's above all other content */
+}
+
+/* Popup content container */
+.popup-content {
+  position: absolute; /* Position relative to the screen */
+  top: 70px; /* Slightly below the header */
+  right: 20px; /* Align to the top-right corner */
+  background-color: #ffffff; /* White card background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for a card effect */
+  width: 300px; /* Fixed width for the card */
+  max-height: 400px; /* Limit height for scrolling */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  z-index: 10000; /* Above the overlay */
+  padding: 16px; /* Add padding inside the card */
+  color: #000;
+}
+
+/* Close button styles */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ff0000; /* Red hover effect */
+}
+
+/* Header styles */
+.popup-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #000; /* Black font for better contrast */
+}
+
+/* Item list styles */
+.popup-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+
+.popup-list-item:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.popup-item-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.bid-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bid-title {
+  font-weight: bold;
+  color: #000; /* Black font */
+}
+
+.bid-price,
+.bid-date {
+  font-size: 0.9rem;
+  color: #555; /* Subtle gray for secondary text */
+}

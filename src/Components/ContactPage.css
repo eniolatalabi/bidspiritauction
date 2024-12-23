@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+
+.contact {
+  font-family: 'Manrope', sans-serif;
+  background-color: #000000;
+}
+
+/* Hero Section */
+.contact-hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #000000; /* Dark background */
+  color: #fff; /* White text */
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.heroes {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contact-hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: orange;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Image */
+.contact-hero-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contact-hero-image img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Location Section */
+.contact-location {
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.location-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.location-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center-align both map and address */
+  align-items: center;
+  gap: 2rem; /* Add spacing between the map and address */
+  max-width: 1200px;
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+/* Map Section */
+.location-map {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px; /* Limit the map's width */
+  height: 300px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Address Section */
+.location-address {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px; /* Match the map's width for balance */
+  text-align: left;
+}
+
+.location-address h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.address-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.location-address p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 4rem 2rem;
+  background-color: #ECECEC;
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-item:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: rgb(255, 239, 210);
+}
+
+.faq-question span {
+  font-weight: bold;
+  color: orange;
+  margin-right: 0.5rem;
+}
+
+.faq-icon {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  color: orange;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq-icon:hover {
+  color: rgb(207, 134, 0);
+}
+
+.faq-answer {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  display: none;
+}
+
+.faq-answer.visible {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-question {
+    font-size: 1rem;
+  }
+  .faq-answer {
+    font-size: 0.95rem;
+  }
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.reviews-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.reviews-list,
+.reviews-form {
+  flex: 1;
+  min-width: 260px;
+  max-width: 28%; /* Reduced the width */
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.review-item h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 0 0 4px;
+}
+
+.review-item p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.review-rating .star {
+  color: #ddd;
+  font-size: 14px;
+}
+
+.review-rating .star.filled {
+  color: #ffc107;
+}
+
+.reviews-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.reviews-form h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.reviews-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  color: #555;
+  font-size: 13px;
+}
+
+.reviews-form input,
+.reviews-form textarea,
+.reviews-form select,
+.reviews-form button {
+  width: 90%; /* Smaller input width */
+  padding: 6px; /* Reduced padding */
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px; /* Reduced font size */
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reviews-form input:focus,
+.reviews-form textarea:focus,
+.reviews-form select:focus {
+
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+}
+
+.reviews-form textarea {
+  resize: none;
+}
+
+.reviews-form select {
+  appearance: none; /* Remove default browser styling */
+  background-color: #f9f9f9;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23666' d='M2 0L0 2h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  padding-right: 25px; /* Add space for dropdown arrow */
+  cursor: pointer;
+}
+
+.reviews-form button {
+  width: 45%; /* Button is now smaller */
+  padding: 8px; /* Reduced padding */
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px; /* Reduced font size */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.reviews-form button:hover {
+  background-color: black;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.reviews-form button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .reviews-list,
+  .reviews-form {
+    max-width: 100%; /* Full-width on smaller screens */
+  }
+
+  .reviews-container {
+    gap: 40px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+  .contact-hero{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-info p {
+    font-size: 0.7rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+  }
+
+  .contact {
+    background-color: #000000;
+  }
+
+
+  .contact-hero h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
